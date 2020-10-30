@@ -77,4 +77,4 @@ class EdinetXbrlObject(object):
         return self._data_dict.keys()
 
     def has_key(self, key):
-        return key in self._data_dict
+        return key in self.get_keys()
